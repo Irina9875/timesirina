@@ -1,0 +1,1350 @@
+@font-face {
+    font-family: 'Entropia';
+    src: url('/assets/fonts/Entropia-Light.otf');
+}
+@font-face {
+    font-family: 'Involve';
+    src: url();
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    transition: .7s;
+    outline: none;
+}
+
+body {
+    background-color: rgba(210, 201, 194, 0.27);
+}
+
+h2 {
+    font-family: 'Vetrino';
+    font-size: 48px;
+    color: #716152;
+    text-align: center;
+    padding: 100px 0px 40px 0px;
+}
+
+.content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+/* НАЧАЛО ХЕДЕРА */
+header {
+    height: 100%;
+    padding: 20px 0px;
+    color: #554C46;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.header__link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.header__link a {
+    font-size: 25px;
+    font-family: 'Involve';
+    color: #554C46;
+}
+
+.header__icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.burg {
+    display: none;
+}
+
+#burger,
+[for=burger] {
+    display: none;
+}
+
+
+/* КОНЕЦ ХЕДЕРА */
+.str {
+    width: 100%;
+    border: 1px solid #D2C9C2;
+}
+
+/* НАЧАЛО БАННЕР */
+
+.text__banner {
+    padding-top: 130px;
+}
+
+.text__banner h1 {
+    font-family: 'Entropia';
+    font-size: 96px;
+    font-weight: 300;
+    color: #554C46;
+}
+
+.glav__banner {
+    padding-left: 60px;
+}
+
+.foto__banner img {
+    width: 479px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.foto__banner {
+    padding: 10px 0;
+}
+
+.button__banner {
+    padding-top: 60px;
+
+}
+
+.button__banner a {
+    width: 506px;
+    height: 88px;
+    background: #B3A292;
+    color: #ffffff;
+    text-align: center;
+    padding: 29px 90px;
+    margin: 60px;
+    font-family: 'Involve';
+    font-size: 32px;
+    color: #FFFFFF;
+
+
+}
+
+/* КОНЕЦ БАННЕРА */
+h2 {
+    align-items: center;
+    font-family: 'Involve';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #554C46;
+    padding-bottom: 50px;
+}
+
+/* начало каталога */
+.katalog_kart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 80px;
+}
+
+.info_kart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 53px;
+}
+
+.kartocha_katalog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kartocha_katalog h3 {
+    width: 259px;
+    height: 64px;
+    font-family: 'Involve';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #554C46;
+    padding-top: 30px;
+}
+
+.kartocha_katalog img {
+    width: 262px;
+    height: 353px;
+}
+
+.info_kart img {
+    width: 40px;
+    height: 40px;
+}
+
+.info_kart p {
+    width: 125px;
+    height: 43px;
+    font-family: 'Involve';
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    color: #554C46;
+}
+
+.info_kart {
+    padding-top: 50px;
+}
+
+/* НАЧАЛО ФОРМЫ */
+
+.podpiska {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1292px;
+    height: 514px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    padding: 90px 100px;
+    margin-bottom: 100px;
+}
+
+.input_podpiska {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 75px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 410px;
+    height: 27px;
+    font-family: 'Involve';
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    padding-left: 10px;
+}
+
+.info_podpiska h3 {
+    width: 600px;
+    height: 120px;
+    font-family: 'Involve';
+    font-weight: 700;
+    font-size: 50px;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.info_podpiska p {
+    width: 296px;
+    height: 37px;
+    font-family: 'Involve';
+    font-weight: 500;
+    font-size: 36px;
+    color: rgba(255, 0, 0, 0.58);
+}
+.input_podpiska button{
+    background-color: #554C46;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    font-family: 'Involve';
+    font-weight: 700;
+    font-size: 20px;
+}
+.input_podpiska button:hover{
+    background-color:#FFFFFF ;
+    color: #554C46;
+}
+span {
+    color: red;
+    font-size: 64px;
+}
+
+/* КОНЕЦ ФОРМЫ */
+/* НАЧАЛО ФУТЕРА */
+footer {
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    color: #ffffff;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+
+}
+
+.icon_seti {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.logo__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+    align-items: center;
+}
+
+.nav__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav__kontakt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav__footer a {
+    font-family: 'Involve';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #554C46;
+}
+
+.nav__kontakt a {
+    font-family: 'Involve';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #554C46;
+}
+
+.nav__kontakt p {
+    font-family: 'Involve';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #554C46;
+}
+
+.footer_name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.str__name {
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+    padding-top: 45px;
+    padding-bottom: 33px;
+}
+
+.footer_name {
+    padding-top: 33px;
+}
+
+.footer_name p {
+    font-family: 'Involve';
+    font-weight: 400;
+    font-size: 18px;
+    color: #554C46;
+}
+
+/* КОНЕЦ ФУТЕРА */
+/* начало карточки */
+.str__nam {
+    width: 100%;
+    border-bottom: 1px solid #554C46;
+    padding-top: 45px;
+}
+
+.kartochka {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding-top: 70px;
+}
+
+.info__kartochka {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info__xarakteric {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 407px;
+}
+
+.info__xarakteric p {
+    font-family: 'Involve';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #554C46;
+}
+
+.btn__korzina{
+    margin-top: 80px;
+ }
+.btn__korzina a{
+align-items: center;
+font-family: 'Involve';
+font-weight: 400;
+font-size: 32px;
+color: #FFFFFF;
+background: #554C46;
+padding: 15px 100px;
+border: 3px solid #554C46;
+border-radius: 10px;
+}
+.btn__korzina a:hover{
+   background: rgba(210, 201, 194, 1);
+   color: #554C46;
+}
+ 
+
+.info__kartochka h3 {
+
+    font-family: 'Involve';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    color: #554C46;
+    padding: 50px 0;
+}
+
+.price_kart {
+    font-family: 'Involve';
+    font-weight: 700;
+    font-size: 40px;
+    color: #554C46;
+    padding-bottom: 90px;
+}
+
+.img__kattochka img {
+    width: 549px;
+    height: 709px;
+}
+/* конец карточки */
+/*  НАЧАЛО ЛОГТН*/
+.login {
+    padding: 20px 0px 90px 0;
+}
+
+.login-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-block h2 {
+    font-family: "Vetrino";
+    font-size: 50px;
+    text-align: center;
+    color: #554C46;
+    padding-bottom: 90px;
+    font-weight: 300;
+}
+
+.form_login input {
+    width: 420px;
+    height: 40px;
+    border: none;
+    border: 1px solid #554C46;
+    font-family: 'Involve';
+    background-color: transparent;
+}
+
+.form_login ::placeholder {
+    text-align: center;
+    font-family: 'Involve';
+    font-size: 20px;
+    color: #554C46;
+}
+
+.form_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 55px;
+}
+
+.login-block a {
+    background-color: transparent;
+    color: #554C46;
+    border: 1px solid #554C46;
+    font-size: 20px;
+    font-family: 'Involve';
+    padding: 14px 170px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.login-block a:hover {
+    background-color: #554C46;
+    color: #FFFFFF;
+    transition: .9s;
+}
+
+.login-block a:not(:hover) {
+    transition: .9s;
+}
+
+.login-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.login-info p {
+    font-family: 'Involve';
+    color: #554C46;
+    font-size: 14px;
+
+}
+
+.login-info a {
+    font-family: 'Involve';
+    color: #554C46;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+/* КОНЕЦ ЛОГИН */
+
+/* НАЧАЛО РЕГИСТРАЦИЯ */
+
+
+.regist-block,
+.delete-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.regist-block h2,
+.delete-block h2 {
+    font-family: 'Involve';
+    font-size: 50px;
+    text-align: center;
+    color: #554C46;
+    font-weight: 300;
+}
+
+.regist-block h2 {
+    padding-bottom: 90px;
+}
+
+.form_regist input {
+    font-family: 'Involve';
+    width: 420px;
+    height: 40px;
+    border: 1px solid #554C46;
+    background-color: transparent;
+}
+
+.form_regist ::placeholder {
+    text-align: center;
+    font-family: 'Involve';
+    font-size: 20px;
+    color: #554C46;
+}
+
+.form_regist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 55px;
+}
+
+.regist-block a {
+    background-color: transparent;
+    color: #554C46;
+    border: 1px solid #554C46;
+    font-size: 20px;
+    font-family: 'Involve';
+    padding: 14px 170px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.regist-block a:hover {
+    background-color: #554C46;
+    color: #FFFFFF;
+    transition: .9s;
+}
+
+.regist-block a:not(:hover) {
+    transition: .9s;
+}
+
+.regist-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.regist-info p {
+    font-family: 'Involve';
+    color: #554C46;
+    font-size: 14px;
+
+}
+
+.regist-info a {
+    font-family: 'Involve';
+    color: #554C46;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+/* НАЧАЛО АДМИН */
+.panel {
+    width: 620px;
+    background-color: #554C46;
+    padding-left: 60px;
+}
+
+.panel-block {
+    margin-bottom: 645px;
+}
+
+.panel-logo {
+    padding: 50px 80px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 0px 80px 0px;
+}
+
+.foto {
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-info h5 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Invlove";
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+
+.profile-info h6 {
+    font-family: "Invlove";
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.panel-block a {
+    color: #FFFFFF;
+    font-size: 27px;
+    font-family: "Invlove";
+}
+
+.admin-block {
+    padding-left: 75px;
+}
+
+.admin-block h3 {
+    text-align: center;
+    font-family: "Invlove";
+    font-size: 38px;
+    color: #554C46;
+    padding: 108px 350px 90px 350px;
+}
+
+.admin {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards {
+    padding-bottom: 75px;
+}
+
+.cards h5,
+.users h5 {
+    color: #554C46;
+    font-size: 30px;
+    font-family: "Invlove";
+    font-weight: 400;
+    padding: 0px 0px 55px 0px;
+    
+}
+
+.card-tovar img {
+    width: 315px;
+    height: 375px;
+}
+
+.card-tovar {
+    background-color: #E1D9D3;
+    width: 315px;
+    padding-bottom: 30px;
+    padding: 40px 10px;
+    margin-bottom: 10px;
+}
+
+.cards-tovar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn_tovar {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    padding-left: 12px;
+}
+
+.btn_delete a,
+.btn_edit a {
+    padding: 5px 23px;
+    background-color: #E1D9D3;
+    color: #554C46;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Invlove";
+}
+
+.card-tovar h6 {
+    font-family: "Invlove";
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #E1D9D3;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.user-block {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+.user-block h6 {
+    font-family: "Invlove";
+    font-size: 24px;
+    color: #554C46;
+
+}
+
+.user-block p {
+    font-family: "Invlove";
+    font-size: 21px;
+    color: #554C46;
+
+}
+
+.user-block a {
+    color: #554C46;
+    font-family: "Invlove";
+    font-size: 25px;
+}
+
+.list-user {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.admin_exit {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.admin_exit a {
+    color: #E1D9D3;
+    font-size: 20px;
+    font-family: "Invlove";
+    padding-bottom: 5px;
+}
+/* КОННЦ АДМИН ПАНЕЛЬ */
+/* DELETE */
+.delete {
+    padding: 100px 0px;
+}
+
+.delete-block h2 {
+    padding-bottom: 50px;
+}
+
+.info-delete p {
+    font-size: 20px;
+    font-family: "Invlove";
+    padding-bottom: 50px;
+}
+
+.btn-cancel {
+    padding: 20px 50px;
+    font-size: 24px;
+    background-color: transparent;
+    border: 1px solid #554C46;;
+    color: #554C46;;
+    font-family: "Invlove";
+    font-weight: 800;
+}
+
+.btn-delete {
+    padding: 20px 50px;
+    font-size: 24px;
+    background-color: transparent;
+    border: 1px solid #554C46;
+    color: #554C46;
+    font-family: "Invlove";
+    font-weight: 800;
+}
+
+.delete-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.btn-cancel:hover {
+    transition: .9s;
+    background-color: #554C46;
+    color: #E1D9D3;
+    border: none;
+}
+
+.btn-delete:hover {
+    background-color: #554C46;
+    color: #E1D9D3;
+    border: none;
+    transition: .9s;
+}
+
+.btn-cancel:not(:hover),
+.btn-delete:not(:hover) {
+    transition: .9s;
+}
+
+
+@media screen and (max-width:768px) {
+    .content {
+        padding: 0px 30px;
+    }
+
+    /* НАЧАЛО ХЕДЕРА */
+    header {
+        height: 100%;
+        padding: 10px 0px;
+        color: #554C46;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header__link {
+        display: none;
+    }
+
+    .header__icon {
+        display: none;
+    }
+
+    [for=burger] {
+        display: flex;
+        position: fixed;
+        right: 40px;
+        top: 27px;
+        z-index: 100000;
+    }
+
+    [for=burger]::before {
+        content: url(../image/burg.svg);
+        font-size: 25px;
+    }
+
+    .burg {
+        position: fixed;
+        width: 40%;
+        background-color: #aa9a9a;
+        padding: 20px;
+        gap: 15px;
+        top: 30px;
+        right: 20px;
+        flex-direction: column;
+        display: none;
+        z-index: 10000;
+    }
+
+    .burg a {
+        color: white;
+    }
+
+    #burger:checked+[for=burger]+.burg {
+        display: flex;
+        animation: show 0.5s;
+    }
+
+    #burger:checked+[for=burger]::before {
+        content: url(../image/close.svg);
+        font-size: 30px;
+    }
+
+    @keyframes show {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    /* КОНЕЦ ХЕДЕРА */
+    /* НАЧАЛО БАННЕР */
+
+
+    .text__banner {
+        padding-top: 80px;
+    }
+
+    .text__banner h1 {
+        font-family: 'Entropia';
+        font-size: 48px;
+        font-weight: 300;
+        color: #554C46;
+    }
+
+    .glav__banner {
+        padding-left: 30px;
+    }
+
+    .foto__banner img {
+        width: 279px;
+        height: 391px;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .foto__banner {
+        padding: 5px 0;
+    }
+
+    .button__banner {
+        padding-top: 30px;
+
+    }
+
+    .button__banner a {
+        width: 506px;
+        height: 88px;
+        background: #B3A292;
+        color: #ffffff;
+        text-align: center;
+        padding: 19px 40px;
+        margin: 40px;
+        font-family: 'Entropia';
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    /* КОНЕЦ БАННЕРА */
+    /* начало каталога */
+    .katalog_kart {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+        padding-bottom: 40px;
+    }
+
+    .info_kart {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .kartocha_katalog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kartocha_katalog h3 {
+        width: 240px;
+        height: 64px;
+        font-family: 'Involve';
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        color: #554C46;
+        padding-top: 10px;
+    }
+
+    .kartocha_katalog img {
+        width: 182px;
+        height: 253px;
+    }
+
+    .info_kart img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .info_kart p {
+        width: 125px;
+        height: 43px;
+        font-family: 'Involve';
+        font-weight: 500;
+        font-size: 28px;
+        text-align: center;
+        color: #554C46;
+    }
+
+    .info_kart {
+        padding-top: 60px;
+    }
+
+    .podpiska {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 500px;
+        height: 564px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        padding: 75px 50px;
+        margin-bottom: 40px;
+    }
+
+    .input_podpiska {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 45px;
+    }
+
+    input {
+        border: none;
+        border-bottom: 1px solid #000000;
+        width: 410px;
+        height: 27px;
+        font-family: 'Involve';
+        font-weight: 400;
+        font-size: 24px;
+        color: #000000;
+        padding-left: 10px;
+    }
+
+    .info_podpiska h3 {
+        font-family: 'Involve';
+        font-weight: 700;
+        font-size: 28px;
+        color: #000000;
+        padding-top: 20px;
+    }
+
+    .info_podpiska p {
+        width: 296px;
+        height: 37px;
+        font-family: 'Involve';
+        font-weight: 500;
+        font-size: 20px;
+        color: rgba(255, 0, 0, 0.58);
+    }
+
+    span {
+        color: red;
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        padding: 10px 5px;
+    }
+    /* НАЧАЛО АДМИН */
+
+.panel-logo {
+    padding: 20px 30px;
+}
+.panel{
+    width: 250px;
+}
+.foto {
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    width: 80px;
+    height: 80px;
+}
+
+.profile-info h5 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Invlove";
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+
+.profile-info h6 {
+    font-family: "Invlove";
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.panel-block a {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: "Invlove";
+}
+.admin-block{
+    padding-left: 10px;
+}
+.admin-block h3 {
+    font-family: "Invlove";
+    font-size: 28px;
+    color: #554C46;
+    padding: 40px 5px;
+}
+
+.admin {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards {
+    padding-bottom: 25px;
+}
+
+.cards h5,
+.users h5 {
+    color: #554C46;
+    font-size: 25px;
+    font-family: "Invlove";
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.card-tovar img {
+    width: 155px;
+    height: 195px;
+}
+.card-tovar h6 {
+    font-family: "Invlove";
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #554C46;
+    padding-top: 5px;
+    padding-bottom: 15px;}
+
+.card-tovar {
+    background-color: #E1D9D3;
+    width: 155px;
+    height: 350px;
+    padding-bottom: 30px;
+    padding: 40px 10px;
+    margin-bottom: 10px;
+}
+
+.cards-tovar {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.btn_tovar {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.btn_delete a,
+.btn_edit a {
+    padding: 3px 9px;
+    background-color: #E1D9D3;
+    color: #554C46;
+    border-radius: 5px;
+    border: 1px solid #554C46;
+    font-size: 12px;
+    font-family: "Invlove";
+}
+/* КОННЦ АДМИН ПАНЕЛЬ */
+.str__nam {
+    width: 100%;
+    border-bottom: 1px solid #554C46;
+    padding-top: 45px;
+}
+.kartochka {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.info__kartochka {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info__xarakteric {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 407px;
+}
+.login-block h2 {
+    font-size: 34px;
+
+}
+.delete-block h2{
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+.btn-cancel {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid #554C46;
+    color: #554C46;
+    font-family: "Invlove";
+    }
+    .btn-delete {
+        padding: 15px 35px;
+        font-size: 20px;
+        background-color: transparent;
+        border: 1px solid #554C46;
+        color: #554C46;
+        font-family: "Invlove";
+    }
+
+.info__xarakteric p {
+    font-family: 'Involve';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #554C46;
+}
+
+.btn__korzina{
+    margin-top: 80px;
+ }
+.btn__korzina a{
+align-items: center;
+font-family: 'Involve';
+font-weight: 400;
+font-size: 28px;
+color: #FFFFFF;
+background: #554C46;
+padding: 10px 60px;
+border: 3px solid #554C46;
+border-radius: 10px;
+}
+.btn__korzina a:hover{
+   background: rgba(210, 201, 194, 1);
+   color: #554C46;
+}
+ 
+
+.info__kartochka h3 {
+
+    font-family: 'Involve';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    color: #554C46;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.price_kart {
+    font-family: 'Involve';
+    font-weight: 700;
+    font-size: 40px;
+    color: #554C46;
+    padding-bottom: 40px;
+}
+
+.img__kattochka img {
+    width: 447px;
+    height: 609px;
+}
+.logo__header img{
+   width:130px ;
+   height: 35px;
+}
+.logo__img img{
+   width:130px ;
+   height: 35px;
+}
+
+}
