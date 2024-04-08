@@ -98,6 +98,7 @@ header {
     font-size: 96px;
     font-weight: 300;
     color: #554C46;
+    padding-bottom: 40px;
 }
 
 .glav__banner {
@@ -115,7 +116,7 @@ header {
 }
 
 .foto__banner {
-    padding: 10px 0;
+    padding: 30px 0;
 }
 
 .button__banner {
@@ -280,7 +281,7 @@ span {
 /* НАЧАЛО ФУТЕРА */
 footer {
     height: 100%;
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 45px;
     color: #ffffff;
     width: 100%;
@@ -982,9 +983,7 @@ border-radius: 10px;
         justify-content: space-between;
     }
 
-    .foto__banner {
-        padding: 5px 0;
-    }
+   
 
     .button__banner {
         padding-top: 30px;
@@ -1333,18 +1332,8 @@ border-radius: 10px;
     color: #554C46;
     padding-bottom: 40px;
 }
-
-.img__kattochka img {
-    width: 447px;
-    height: 609px;
-}
-.logo__header img{
-   width:130px ;
-   height: 35px;
-}
-.logo__img img{
-   width:130px ;
-   height: 35px;
+footer{
+    padding-top: 30px;
 }
 
 }
